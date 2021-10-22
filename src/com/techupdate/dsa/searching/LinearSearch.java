@@ -3,6 +3,8 @@ package com.techupdate.dsa.searching;
 import java.util.Arrays;
 
 public class LinearSearch {
+    //Best case complexity is 1 [Constant]
+    //Worst case complexity is N [i.e. for 1000000 elements it will take 1000000 comparisons]
 
     public static void main(String[] args) {
         int arr[] = {21, 55, 78 , 99 ,66, 6, 98};
